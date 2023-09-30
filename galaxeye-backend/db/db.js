@@ -3,8 +3,6 @@ const tilesSchema = require("./tilesSchema");
 const dataset = require("./karnataka.json");
 
 const mongodbUrl = "mongodb://mongo-db/MapSelector";
-// const mongodbUrl =
-//   "mongodb+srv://Khushi13:Khushi13DB@cluster0.qtwodbe.mongodb.net/?retryWrites=true&w=majority";
 mongoose.connect(mongodbUrl);
 const database = mongoose.connection;
 
