@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const tilesSchema = require("./tilesSchema");
 const dataset = require("./karnataka.json");
 
-const mongodbUrl = "mongodb://mongo-db/MapSelector";
+const mongodbUrl = "mongodb://mongo:27017/MapSelector";
 mongoose.connect(mongodbUrl);
 const database = mongoose.connection;
 
